@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>롯데 자이언츠 선수단 응원 메시지 이벤트</h1>
+  <fieldset>
+    <legend>선수단을 응원하고 경품 받자!</legend>
+    <ul>
+      <li>
+        <label for="id">아이디</label>
+        <input type="text" id="id" placeholder="4자 ~ 10자 사이, 공백없이" required />
+      </li>
+      <li>
+        <label for="email">이메일</label>
+        <input type="email" required />
+      </li>
+      <li>
+        <label for="select">경품 목록</label>
+          <select id="path">
+            <option value="sign-ball" selected>선수단 사인볼</option>
+            <option value="Home-Uniform" selected>홈 레플리카 유니폼</option>
+            <option value="Away-Uniform" selected>원정 레플리카 유니폼</option>
+            <option value="Tiket" selected>홈 경기 티켓 2매</option>
+          </select>
+       </li>
+      <li>
+        <label for="text">메모</label>
+        <textarea name="memo" id="" cols="30" rows="10">
+          안녕하세요 
+          롯데 자이언츠를 응원합니다 :) 
+          2023년 프로 야구 우승!
+        </textarea>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>이벤트 결과와 세로운 소식</legend>
+    <input type="radio">
+    <label for="radio">메일 수신</label>
+    <input type="radio">
+    <label for="radio" checked>메일 수신 안함</label>
+  </fieldset>
+  <div id="buttons">
+  <button type="submit">이벤트 신청하기</button>
+  <button type="reset">취소</button>
+</div>
+</body>
+</html>
