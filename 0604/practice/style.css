@@ -13,6 +13,6 @@ p {
   color: red;
 }
 
-#emphasis .highlight{
+#emphasis, .highlight{
   font-style: italic;
 }
