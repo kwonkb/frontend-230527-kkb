@@ -1,0 +1,23 @@
+/*안녕하세요 스타일 시트 화면입니다.*/
+*{
+  margin: 0;
+}
+
+img{
+  width: 100px;
+}
+
+p{
+  font-style: italic;
+}
+
+.oddNumber {
+  color: black;
+
+}
+#evenNumber{
+  color: brown;
+}
+#title{
+  text-align: right;
+}
