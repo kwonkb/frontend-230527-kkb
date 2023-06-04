@@ -1,0 +1,18 @@
+div{
+  border: 1px solid black;
+}
+p {
+  color: blue;
+}
+.highlight{
+  background-color: yellow;
+  color: green;
+}
+
+#emphasis {
+  color: red;
+}
+
+#emphasis .highlight{
+  font-style: italic;
+}
