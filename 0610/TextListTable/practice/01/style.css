@@ -1,0 +1,14 @@
+table,th,td{
+  caption-side: bottom;
+  border: 1px solid;
+  border-collapse: collapse;
+  
+}
+td,th{
+  border: 1px solid;
+  padding: 10px;
+
+}
+.heading, th{
+  background-color: #eee;
+}
